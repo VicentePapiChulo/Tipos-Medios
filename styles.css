@@ -1,0 +1,67 @@
+/* Reset de estilos básicos */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bfa5d6;
+}
+
+header {
+    background-color: #52134b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #a047a3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.51);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #52134b;
+    color: white;
+    padding: 10px;
+}
+
+/*Centrar imagenes*/
+
+.contenedor-imagen {
+    text-align: center;
+}
+
+.contenedor-imagen img {
+    margin: 0 auto;
+}
+
+/*Centrar el texto*/
+.center-text {
+    text-align: center;
+}
